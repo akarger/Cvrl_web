@@ -331,7 +331,8 @@ footer {
 
 
 .footer_text:hover {
-	color: red;
+	color: ;
+	font-weight: 300;
 }
 
 .social {
@@ -698,7 +699,7 @@ footer {
 
 
 .footer_text:hover {
-	color: red;
+	font-weight: 300;
 }
 
 .social {
