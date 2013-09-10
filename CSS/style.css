@@ -1,0 +1,771 @@
+
+
+
+h1, p, body, html {
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 0px;
+}
+
+/* START MULTI USE CLASSES */
+.section_statement {
+	height: 175px;
+	width: 675px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 44px;
+	text-align: center;
+	margin: 75px auto 0px auto;
+}
+
+.button_statement {
+	height: 60px;
+	width: 635px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	text-align: center;
+	margin: 50px auto 0px auto;
+}
+
+.btn {
+	height: 60px;
+	width: 300px;
+	border: 1px solid #333;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	margin: 50px auto 0px auto;
+	padding: 10px 20px 10px 20px;
+	color: #fff;
+	background: black;
+	text-decoration: none;
+	
+}
+
+.btn:hover {
+	height: 60px;
+	width: 300px;
+	border: 1px solid #000000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	margin: 50px auto 0px auto;
+	padding: 10px 20px 10px 20px;
+	color: black;
+	background: #fff;
+	text-decoration: none;
+	
+}
+
+.btn2:hover {
+	height: 60px;
+	width: 300px;
+	border: 1px solid #333;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	margin: 50px auto 0px auto;
+	padding: 10px 40px 10px 40px;
+	color: #fff;
+	background: black;
+	text-decoration: none;
+	
+}
+
+.btn2 {
+	height: 60px;
+	width: 300px;
+	border: 1px solid #000000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	margin: 50px auto 0px auto;
+	padding: 10px 40px 10px 40px;
+	color: black;
+	background: #fff;
+	text-decoration: none;
+}
+
+.btn3 {
+	height: 60px;
+	width: 300px;
+	border: 1px solid #333;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	margin: 50px auto 0px auto;
+	padding: 10px 30px 10px 30px;
+	color: #fff;
+	background: black;
+	text-decoration: none;
+	
+}
+
+.btn3:hover {
+	height: 60px;
+	width: 300px;
+	border: 1px solid #000000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	margin: 50px auto 0px auto;
+	padding: 10px 30px 10px 30px;
+	color: black;
+	background: #fff;
+	text-decoration: none;
+}
+/* END MULTI USE CLASSES */
+
+/* START SECTION cta */
+#cta {
+	height: 650px;
+	width: 100%;
+	border-top: 10px solid #000000;	
+	border-bottom: 10px solid #000000;
+	margin-top: -8px;
+	padding-left: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+.nav {
+	height: 18px;
+	width: 230px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	margin: 10px 3% 0px auto;
+	text-align: right;
+}
+
+.nav_link {
+	text-decoration: none;
+	color: black;
+}
+
+.nav_link:hover {
+	text-decoration: none;
+	font-weight: 300;
+}
+
+#logo {
+	height: 80px;
+	width: 635px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 80px;
+	text-align: center;
+	margin: 75px auto 0px auto;
+}
+/* END SECTION cta */
+
+/* START SECTION client_book */
+#client_book {
+	height: 650px;
+	width: 100%;	
+	border-bottom: 10px solid #000000;
+	margin-top: 0px;
+	padding-left: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-right: 10px;
+	text-align: center;
+	padding-top: 0px;
+	background: transparent url(../images/client_opacity.png) no-repeat center top;
+	opacity: 1;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.section23_statement {
+	height: 175px;
+	width: 400px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 44px;
+	text-align: center;
+	margin: 0px auto 0px auto;
+	padding-top: 50px;
+	
+}
+
+.sub_statement {
+	margin-left: 5%;
+	width: 500px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+#iphone {
+	position: absolute;	
+	margin-left: 675px;
+	margin-top: -508px;
+	text-align: right;
+}
+
+/* END SECTION client_book */
+
+/* START SECTION client_communication */
+#client_communication {
+	height: 650px;
+	width: 100%;	
+	border-bottom: 10px solid #000000;
+	margin-top: 0px;
+	padding-left: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-right: 10px;
+	text-align: center;
+	padding-top: 0px;
+	background: transparent url(../images/barber_station_opacity.png) no-repeat center top;
+	opacity: 1;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.sub_statement2 {
+	margin-left: 45%;
+	width: 500px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+#iphone2 {
+	position: absolute;	
+	margin-left: 50px;
+	margin-top: -450px;
+	text-align: right;
+}
+/* END SECTION client_communication */
+
+/* START SECTION cta2 */
+#cta2 {
+	height: 650px;
+	width: 100%;	
+	margin-top: 0px;
+	padding-left: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-right: 10px;
+	text-align: center;
+	padding-top: 0px;
+
+}
+.section_statement4 {
+	height: 175px;
+	width: 550px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 44px;
+	text-align: center;
+	margin: 75px auto 0px auto;
+}
+/* END SECTION cta2 */
+
+footer {
+	height: 50px;
+	width: 100%;
+	background: black;
+	margin-top: 0px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-right: 10px;
+}
+
+.feet {
+	height: 30px;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: -20px;
+	vertical-align: center;
+	text-align: center;
+	text-decoration: none;
+}
+
+.footer_text {
+	height: 30px;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: center;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.footer_text:hover {
+	color: red;
+}
+
+.social {
+	height: 14px;
+	margin-left: 5px;
+}
+
+.social:hover {
+	height: 14px;
+}
+
+/* START SECTION About Page */
+#about {
+	height: 700px;
+	width: 100%;
+	border-top: 10px solid #000000;	
+	border-bottom: 0px solid #000000;
+	margin-top: -8px;
+	padding-left: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-right: 10px;
+	background: transparent url(../images/new_york.png) no-repeat center top;
+	opacity: 1;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.section_head {
+	height: 75px;
+	width: 645px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 44px;
+	text-align: center;
+	margin: 75px auto 0px auto;	
+}
+
+.section_body {
+	margin: 0px auto 0px auto;
+	width: 625px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.section_body_comp {
+	margin: 100px auto 0px auto;
+	width: 550px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+#address {
+	margin-left: 0px;
+}
+
+.about_script {
+	width: 500px;
+	height: 250px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	margin: 0px auto 0px auto;
+}
+
+.circle_big {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 60px;
+	text-align: center;
+	height: 100px;
+	width: 100px;
+	margin: 20px auto 0px auto;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 1px solid #000000;
+}
+
+.circle_small {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	text-align: center;
+	height: 50px;
+	width: 50px;
+	margin: 20px auto 0px auto;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 1px solid #000000;
+}
+
+/*--MOBILE START--*/
+@media screen and (max-width: 700px) {
+
+/*--CTA START--*/
+.tab {
+	display: none;
+}
+
+.section_statement {
+	height: 175px;
+	width: 320px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 24px;
+	text-align: center;
+	margin: 40px auto 0px auto;
+}
+
+.button_statement {
+	height: 60px;
+	width: 320px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	text-align: center;
+	margin: 20px auto 0px auto;
+}
+
+.btn {
+	height: 60px;
+	width: 300px;
+	border: 1px solid #333;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	margin: 50px auto 0px auto;
+	padding: 10px 20px 10px 20px;
+	color: #fff;
+	background: black;
+	text-decoration: none;
+	
+}
+
+.btn:hover {
+	height: 60px;
+	width: 300px;
+	border: 1px solid #000000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	margin: 50px auto 0px auto;
+	padding: 10px 20px 10px 20px;
+	color: black;
+	background: #fff;
+	text-decoration: none;
+}
+
+/* START SECTION cta */
+#cta {
+	height: 500px;
+	width: 100%;
+	border-top: 10px solid #000000;	
+	border-bottom: 10px solid #000000;
+	margin-top: -8px;
+	padding-left: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-right: 10px;
+}
+
+.nav {
+	height: 22px;
+	width: 320px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 24px;
+	margin: 10px auto 0px auto;
+	text-align: center;
+}
+
+.nav_link {
+	text-decoration: none;
+	color: black;
+}
+
+.nav_link:hover {
+	text-decoration: none;
+	font-weight: 300;
+}
+
+#logo {
+	height: 50px;
+	width: 320px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 50px;
+	text-align: center;
+	margin: 40px auto 0px auto;
+}
+/* END SECTION cta */
+
+/* START SECTION client_book */
+#client_book {
+	height: 500px;
+	width: 100%;	
+	border-bottom: 10px solid #000000;
+	margin-top: 0px;
+	padding-left: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-right: 10px;
+	text-align: center;
+	padding-top: 0px;
+	background: transparent url(../images/client_opacity.png) no-repeat center top;
+	opacity: 1;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.section23_statement {
+	height: 120px;
+	width: 250px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 28px;
+	text-align: center;
+	margin: 0px auto 0px auto;	
+}
+
+.sub_statement {
+	margin: 0px auto 0px auto;
+	;
+	width: 320px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: left;
+	padding: 5px 5px 5px 5px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+#iphone {
+	display: none;
+}
+
+/* START SECTION client_book */
+
+/* START SECTION client_communication */
+#client_communication {
+	height: 500px;
+	width: 100%;	
+	border-bottom: 10px solid #000000;
+	margin-top: 0px;
+	padding-left: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-right: 10px;
+	text-align: center;
+	padding-top: 0px;
+	background: transparent url(../images/barber_station_opacity.png) no-repeat center top;
+	opacity: 1;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.sub_statement2 {
+	margin: 0px auto 0px auto;
+	width: 320px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: left;
+	padding: 5px 5px 5px 5px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+#iphone2 {
+	display: none;
+}
+/* END SECTION client_communication */
+
+/* START SECTION cta2 */
+#cta2 {
+	height: 500px;
+	width: 100%;	
+	margin-top: 0px;
+	padding-left: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-right: 10px;
+	text-align: center;
+	padding-top: 0px;
+
+}
+
+.section_statement4 {
+	height: 150px;
+	width: 320px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 28px;
+	text-align: center;
+	margin: 75px auto 0px auto;
+}
+/* END SECTION cta2 */
+
+/* START footer */
+footer {
+	height: 80px;
+	width: 100%;
+	background: black;
+	margin-top: 0px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-right: 10px;
+}
+
+.feet {
+	height: 30px;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: -20px;
+	vertical-align: center;
+	text-align: center;
+	text-decoration: none;
+}
+
+.footer_text {
+	height: 30px;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: center;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.footer_text:hover {
+	color: red;
+}
+
+.social {
+	height: 14px;
+	margin-left: 5px;
+}
+
+.social:hover {
+	height: 14px;
+}
+/* END footer */
+
+/* START SECTION About Page */
+#about {
+	height: 550px;
+	width: 100%;
+	border-top: 10px solid #000000;	
+	border-bottom: 0px solid #000000;
+	margin-top: -8px;
+	padding-left: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-right: 10px;
+	background: transparent url(../images/new_york.png) no-repeat center top;
+	opacity: 1;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.section_head {
+	height: 50px;
+	width: 320px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 28px;
+	text-align: center;
+	margin: 25px auto 0px auto;	
+}
+
+.section_body {
+	margin: 0px auto 0px auto;
+	width: 320px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: left;
+	padding: 5px 5px 5px 5px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.section_body_comp {
+	margin: 50px auto 0px auto;
+	width: 320px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+#address {
+	margin-left: 75px;
+}
+/* END SECTION About Page */
+}

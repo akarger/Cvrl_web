@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link href="css/style.css" rel="stylesheet" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<!--SMOOTH SCROLLING SCRIPT START -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+<script>
+$(function() {
+
+	function filterPath(string) {
+		return string
+		.replace(/^\//,'')
+		.replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+		.replace(/\/$/,'');
+	}
+
+	var locationPath = filterPath(location.pathname);
+	var scrollElem = scrollableElement('html', 'body');
+
+	// Any links with hash tags in them (can't do ^= because of fully qualified URL potential)
+	$('a[href*=#]').each(function() {
+
+		// Ensure it's a same-page link
+		var thisPath = filterPath(this.pathname) || locationPath;
+		if (  locationPath == thisPath
+			&& (location.hostname == this.hostname || !this.hostname)
+			&& this.hash.replace(/#/,'') ) {
+
+				// Ensure target exists
+				var $target = $(this.hash), target = this.hash;
+				if (target) {
+
+					// Find location of target
+					var targetOffset = $target.offset().top;
+					$(this).click(function(event) {
+
+						// Prevent jump-down
+						event.preventDefault();
+
+						// Animate to target
+						$(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
+
+							// Set hash in URL after animation successful
+							location.hash = target;
+
+						});
+					});
+				}
+		}
+
+	});
+
+	// Use the first element that is "scrollable"  (cross-browser fix?)
+	function scrollableElement(els) {
+		for (var i = 0, argLength = arguments.length; i <argLength; i++) {
+			var el = arguments[i],
+			$scrollElement = $(el);
+			if ($scrollElement.scrollTop()> 0) {
+				return el;
+			} else {
+				$scrollElement.scrollTop(1);
+				var isScrollable = $scrollElement.scrollTop()> 0;
+				$scrollElement.scrollTop(0);
+				if (isScrollable) {
+					return el;
+				}
+			}
+		}
+		return [];
+	}
+
+});
+</script>
+<!--SMOOTH SCROLL SCRIPT END -->
+
+    <!-- FACEBOOK SHARE TAG START -->
+    
+        <meta property="og:title" content="Find your salad soulmate today!">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://saladmatch.com/">
+        <meta property="og:image" content="http://saladmatch.com/images/saladmatch-logo.png">
+        <meta property="og:site_name" content="SaladMatch">
+        <meta property="og:description" content="Find your salad soulmate today!">
+        <meta property="fb:admins" content="">
+    <meta name="apple-itunes-app" content="">
+     <!-- FACEBOOK SHARE TAG END -->
+     
+</head>
+<body>
+<header class="header">
+	
+</header>
+
+<section id="cta">
+	<a class="tab" href="#client_communication"><img src="images/tab2.png" alt="tab" /></a>
+	<p class="nav"><a class="nav_link" href=""><span style="font-weight: 300;">Test Us Out!</span></a>  |  <a class="nav_link" href="">About</a>  |  <a class="nav_link" href="">Blog</a></p>
+	<p id="logo">Cvrl</p>
+	<p class="section_statement">No two experts in hair &#38; makeup are alike, so we designed an app that celebrates your unique style &#38; needs</p>
+	<p class="button_statement">Get a link to download the app below:<br><br><a href="http://www.trycvrl.com" class="btn">SEND ME A LINK</a></p>
+</section>
+
+<section id="client_communication">
+	<a class="tab" href="#client_book"><img src="images/tab2.png" alt="tab" /></a>
+	<p class="section23_statement">Clients are the pulse of your business</p>
+	<p class="sub_statement">Never again worry about losing important client information.  Cvrl manages contact information for hundreds of clients securely in our cloud for access from any device.<br><br>Make it easy for clients to recommend you to friends with your contact information included within every message you send. </p>
+	<div id="iphone"><img style="width: 300px;" src="images/iphone2.png" alt="iPhone" /></div>
+</section>
+
+<section id="client_book">
+	<a class="tab" href="#cta2"><img src="images/tab2.png" alt="tab" /></a>
+	<p class="section23_statement">A simple thank you goes a long way</p>
+	<p class="sub_statement2">Strengthen your client relationships with customized communication, notes, and client history tracking.<br><br>Don't let clients forget about their appointments with reminder emails and text messages.</p>
+	<div id="iphone2"><img style="width: 300px;" src="images/iphone2.png" alt="iPhone" /></div>
+</section>
+	
+<section id="cta2">
+	<a class="tab" href="#cta"><img src="images/tab3.png" alt="tab" /></a>
+	<p id="logo">Cvrl</p>
+	<p class="section_statement4">It's time you take control of your business and start communicating with clients!</p>
+	<p class="button_statement">Send yourself a custom thank you message:<br><br><a href="http://www.trycvrl.com" class="btn3">TEST US OUT</a></p>
+</section>
+</body>
+
+<footer>
+	<p class="feet"><a class="footer_text" href="">About</a>  |  <a class="footer_text" href="">Blog  </a>|  <a class="footer_text" href="">Pricing</a>  |  <a class="footer_text" href="">Privacy Policy</a>| <a class="footer_text" href="">Terms &#38; Services</a> | <span class="footer_text">Made in NYC <img  style="height: 14px;" src="images/heart.png" alt="heart" /></span>&#160;&#160; | &#160;&#160;Connect with Us: <img class="social"  src="images/facebook.png" alt="Facebook" /><img class="social" src="images/twitter.png" alt="Twitter" /><img class="social" src="images/instagram.png" alt="Instagram" /></span><br>&copy; Burning Barn LLC</p>
+	
+</footer>
+
+</html>
